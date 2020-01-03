@@ -1,5 +1,5 @@
 FROM ubuntu
 
-ADD . /steptest
+ADD . /sample-script
 
-RUN /steptest/install.sh
+RUN /sample-script/install.sh

@@ -2,4 +2,4 @@ FROM ubuntu
 
 ADD . /sample-script
 
-RUN /sample-script/install.sh
+RUN /sample-script/echo.sh
